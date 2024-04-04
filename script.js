@@ -17,7 +17,7 @@ function  playRound(playerSelection, computerSelection){
   computerSelection = getComputerChoice();
   //Makes player input case-insensitive
   playerSelection = playerSelection.toLowerCase();
-  //Checks if playerSelection was rock, paper or scissors
+  //Checks if playerSelection was rock, paper or scissors and not something else
   if (playerSelection !== "rock" && playerSelection !== "paper" && playerSelection !== "scissors"){
     return "Invalid choice! Please choose Rock, Paper, or Scissors"
   } 
