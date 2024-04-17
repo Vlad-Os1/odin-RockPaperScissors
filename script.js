@@ -37,9 +37,11 @@ function playgame(){
     if(playerSelection === null) continue;
     let computerSelection = getComputerChoice();
     let result = playRound(playerSelection, computerSelection);
+
     if(result) {
       console.log(result);
     }
   }
+  return "The End"
 }
 playgame();
