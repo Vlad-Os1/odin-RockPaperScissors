@@ -31,17 +31,3 @@ function  playRound(playerSelection, computerSelection){
   }    
 }
 
-function playgame(){
-  for(let i = 0; i < 5; i++){
-    let playerSelection = prompt("Rock, Paper or Scissors ?");
-    if(playerSelection === null) continue;
-    let computerSelection = getComputerChoice();
-    let result = playRound(playerSelection, computerSelection);
-
-    if(result) {
-      console.log(result);
-    }
-  }
-  return "The End"
-}
-playgame();

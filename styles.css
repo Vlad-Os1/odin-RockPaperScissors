@@ -1,10 +1,77 @@
-body{
+body {
   margin: 0;
   padding: 0;
+  background-color: coral;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-p{
+.header {
   display: flex;
   justify-content: center;
-  font-size: 24px;
+  color: #fff;
+  background-color: #000;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}
+
+.scoreboard {
+  margin-top: 50px;
+  text-align: center;
+  color: #fff;
+   
+}
+
+.game-result {
+  font-size: 32px;
+}
+
+.game-message {
+  font-size: 32px;
+}
+
+.score-container {
+  display: flex;
+  max-width: 400px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.choice-container {
+  width: 160px;
+}
+
+.buttons {
+  
+}
+
+.btn-choice {
+  height: 150px;
+  width: 150px;
+  cursor: pointer;
+  border: none;
+  
+}
+
+.sign {
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+}
+
+
+
+
+.footer {
+  
 }
