@@ -38,6 +38,7 @@ body {
 
 .score-container {
   display: flex;
+  min-width: 400px;
   max-width: 400px;
   justify-content: space-between;
   align-items: center;
@@ -51,8 +52,13 @@ body {
   width: 160px;
 }
 
+.choice {
+  height: 106px;
+}
+
 .buttons {
-  
+  display: flex;
+  gap: 20px;
 }
 
 .btn-choice {

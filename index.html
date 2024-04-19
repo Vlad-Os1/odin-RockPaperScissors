@@ -12,27 +12,27 @@
     
     <div class="main">
       <div class="scoreboard">
-        <h2 class="game-result">Choose Rock, Paper or Scissors</h2>
-        <h3 class="game-message">First to score 5 points wins the game</h3>
+        <h2 class="game-result" id="game-result">Choose Rock, Paper or Scissors</h2>
+        <h3 class="game-message" id="game-message">First to score 5 points wins the game</h3>
         <div class="score-container">
           <div class="choice-container">
-            <div class="choice">Player choice</div>
-            <p class="score">Player score:</p>
+            <div class="choice" id="player-choice"></div>
+            <p class="score" id="player-score">Player score:</p>
           </div>
           <div class="choice-container">
-            <div class="choice">Computer choice</div>
-            <p class="score">Computer score:</p>
+            <div class="choice" id="computer-choice"></div>
+            <p class="score" id="computer-score">Computer score:</p>
           </div>
         </div>
       </div>
       <div class="buttons">
-        <button class="btn-choice">
+        <button class="btn-choice" id="rockbtn">
           <div class="sign">✊</div>
         </button>
-        <button class="btn-choice">
+        <button class="btn-choice" id="paperbtn">
           <div class="sign">✋</div>
         </button>
-        <button class="btn-choice">
+        <button class="btn-choice" id="scissorsbtn">
           <div class="sign">✌</div>
         </button>
       </div>
